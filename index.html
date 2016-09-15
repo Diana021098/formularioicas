@@ -1,0 +1,124 @@
+<html> 
+<head> <title>jQuery Mobile Form</title> 
+<meta name="viewport" content="width=device-width, initial-scale">
+ <link rel="stylesheet" href="css/jquery-mobile.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/temapp4.min.css"/>
+  
+ <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/jquery-mobile.js"></script>
+  </head>
+<body>
+   <div data-role="page">
+   <div data-role="header" data-theme="a">
+     <h1> Formulario</h1> 
+</div> 
+<div data-role="main" class="ui-content" data-theme="a"> 
+   <form method="post" action="mailto:laliuxx593@gmail.com" data-ajax="false"> 
+   <label for="nombre">Nombre : </label>
+    <input type="text" name="nombre" id="nombre" ><br>
+    <label for="nombre">Apellidos : </label>
+    <input type="text" name="apellidos" id="apellidos" ><br><p>Edad</p>
+   <fieldset data-role="controlgroup" data-mini="true" data-type = "horizontal">
+<input type="radio" name="radio-mini" id="radio-mini-1" value="choice-1"
+checked="checked" />
+<label for="radio-mini-1">De 3 de edad a 10</label>
+<input type="radio" name="radio-mini" id="radio-mini-2" value="choice-2" />
+<label for="radio-mini-2">De 11 de edad a 18  </label>
+<input type="radio" name="radio-mini" id="radio-mini-3" value="choice-3" />
+<label for="radio-mini-3">De 19 de edad a 35 </label>
+<input type="radio" name="radio-mini" id="radio-mini-4" value="choice-4" />
+<label for="radio-mini-4">De 19 de edad a 60 </label>
+</fieldset><br>
+    
+     <fieldset data-role="controlgroup"> <legend>Genero:</legend> 
+     <label for="masculino">Masculino</label> 
+     <input type="radio" name="genero" id="masculino" value="male"> 
+     <label for="femenino">Femenino</label> 
+     <input type="radio" name="genero" id="femenino" value="femenino"> 
+     </fieldset><br> 
+    
+    Fecha: <input type="date" name="fecha" step="1" min="2013-01-01" max="2016-09-01" value="2016-09-14"><br>
+     
+     <fieldset data-role="controlgroup"> <legend>Que tipo de peliculas te gusta mas?</legend>
+     <input type="checkbox" name="rock" id="rock" class="custom"/>
+	<label for="rock">Comedia</label>
+ 
+    <input type="checkbox" name="pop" id="pop" class="custom"/>
+	<label for="pop">Amor</label>
+    
+    <input type="checkbox" name="elec" id="elec" class="custom"/>
+	<label for="elec">Terror/Supenso</label>
+    
+      
+    <input type="checkbox" name="rap" id="rap" class="custom"/>
+	<label for="rap">Mexicanas</label> 
+    
+    
+    <input type="checkbox" name="balada" id="balada" class="custom"/>
+	<label for="balada">Niños</label>
+    
+    
+    <input type="checkbox" name="hip" id="hip" class="custom"/>
+	<label for="hip">Extranjeras</label>
+    
+    
+    <input type="checkbox" name="regue" id="regue" class="custom"/>
+	<label for="regue">Conciertos</label>
+    
+    
+    <input type="checkbox" name="bacha" id="bacha" class="custom"/>
+	<label for="bacha">Clasicas</label>
+     
+     
+    <input type="checkbox" name="roll" id="roll" class="custom"/>
+	<label for="roll">Accion</label>
+    
+    
+    <input type="checkbox" name="cla" id="cla" class="custom"/>
+	<label for="cla">Ciencia Ficcion</label>
+    <br>
+    
+     <fieldset data-role="controlgroup"> <legend>Que tan seguido ve peliculas?</legend>
+    <select>
+<option>Todo el tiempo</option>
+<option>Cuando estoy aburrido/a</option>
+<option>Cuando estoy con amigos</option>
+<option>A veces</option>
+<option>Nunca</option>
+<option>Ninguna de las anteriores</option>
+</select>
+</fieldset><br>
+
+ <fieldset data-role="controlgroup"> <legend>Cual es el mejor genero de la decada?</legend>
+    <select>
+<option>Amor</option>
+<option>Comedia</option>
+<option>Clasicas</option>
+<option>Mexicanas</option>
+<option>Ciencia Ficcion</option>
+<option>Ninguna</option>
+</select>
+</fieldset>
+<br>
+    <p>Para que ve peliculas?</p>
+      <label for="info">Para que ve peliculas?</label> 
+      <input type="text" id="ejemplo" name="ejemplo" placeholder="Respuesta abierta"><br>
+
+<p>Que pelicula nos recomienda? Y porque?</p>
+<label for="info">Para que ve peliculas?</label> 
+      <input type="text" id="ejemplo" name="ejemplo" placeholder="Respuesta abierta"><br>
+       <input type="submit" data-inline="true" value="Enviar" data-theme>
+       <input type="reset" data-inline="true" value="Limpiar"> </form> 
+       
+
+       </div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>DIANA LAURA PEREZ SALVADOR</h4>
+</div>
+</div>
+
+      
+</body> 
+</html>
